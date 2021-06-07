@@ -1,0 +1,119 @@
+body {
+    font-size: 14px;
+}
+
+
+.fontstili  {
+    font-family: Poppins;
+}
+
+.fontlarge {
+    font-size: 18px;
+}
+
+.fontmedium {
+    font-size: 16px;
+}
+
+.fontsmall {
+    font-size: 14px;
+}
+
+.maddeortalama {
+    list-style-position: inside;
+}
+
+header>nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header>nav>ul>li {
+    margin-right: 60px;
+}
+
+header>nav>ul>li>a {
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#teklifbutonu { 
+        background-color: #F11F2B;
+        color: white;
+        padding: 14px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+    
+#teklifbutonu:hover, #teklifbutonu:active {
+    background-color: #1e1e1e;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #F11F2B;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    float: center
+;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    background-color: #F6F4EF;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 5px;
+    text-align: right;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+      

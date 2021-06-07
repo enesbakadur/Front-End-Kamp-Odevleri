@@ -5,62 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>İletişim</title>
+    <link rel="stylesheet" href="css/proje.css">
 </head>
-<body>
+<body class="fontstili" style="text-align: center; background-color: #F6F4EF; margin: 0; padding: 0; ">
     <!-- Navbar - Start -->
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Ana Sayfa</a>
-                </li>
-                <li>
-                    <a href="about-us.html">Hakkımızda</a>
-                </li>
-                <li>
-                    <a href="contact.html">İletişim</a>
-                </li>
-            </ul>
-        </nav>        
-    </header>
-    <!-- Navbar - End -->
+    <header class="fontmedium">
+       <nav style="padding: 10px; background-color: white;">
+           <ul>
+               <li>
+                   <a href="index.html">Ana Sayfa</a>
+               </li>
+               <li>
+                   <a href="designs.html">Tasarımlarım</a>
+               </li>
+               <li>
+                   <a href="contact.html">İletişim</a>
+               </li>
+           </ul>
+       </nav>        
+   </header>
+   <!-- Navbar - End -->
 
     <section>
     <!-- Content - Start -->
         <!-- Articles - Start -->
-        <article>
-            <h2>İletişim</h2>
-            <img src="https://picsum.photos/id/235/800/300" alt="Görsel 1">
-            <p>Adres:</p>
-            <address>
-                Rastgele Mahalle, Kafadan Sokak, No: 24, Kat: 2 <br>
-                Osmangazi/BURSA
-            </address>
-            <ul>
-                <li><a href="tel:02000000">Bizi Arayabilirsiniz</a></li>
-                <li><a href="mailto:enesbakadur@outlook.com">Bize Mail Atabilirsiniz</a></li>
-            </ul>          
+        <article class="container">
+            <form action="#">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">Adınız</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Adınız">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Soyadınız</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="lname" name="lastname" placeholder="Soyadınız">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="country">İstediğiniz Hizmet</label>
+              </div>
+              <div class="col-75">
+                <select id="country" name="country">
+                  <option>Logo tasarımı</option>
+                  <option>Kartvizit tasarımı</option>
+                  <option>Kurumsal kimlik tasarımı</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="subject">Hizmet ile İlgili Detaylar*</label>
+              </div>
+              <div class="col-75">
+                <textarea id="subject" name="subject" placeholder="İnşaat sektöründe faaliyet gösteren işletmem için minimal bir logo tasarımı istiyorum."
+                style="height:200px"></textarea>
+              </div>
+            </div>
+            <a style="margin-top: 12px;;" id="teklifbutonu" href="contact.html" >TEKLİF AL!</a>
+            </form>
         </article>
         <!-- Articles - End -->
     <!-- Content - End -->
     </section>
 
     <!-- Footer - Start -->
-    <footer>
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Ana Sayfa</a>
-                </li>
-                <li>
-                    <a href="about-us.html">Hakkımızda</a>
-                </li>
-                <li>
-                    <a href="contact.html">İletişim</a>
-                </li>
-            </ul>
-        </nav>        
-    </footer>
+    
     <!-- Footer - End -->
 </body>
 </html>
